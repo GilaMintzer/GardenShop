@@ -51,7 +51,7 @@ const Header = (props) => {
         >
           <Grid item >
             <NavLink to="/" className="link">
-              <img src={"../../logo.png"} />
+              <img src={"../../logo.pnggi"} />
             </NavLink>
 
           </Grid>
