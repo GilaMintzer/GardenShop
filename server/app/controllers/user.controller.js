@@ -68,7 +68,7 @@ exports.update = (req, res) => {
 
 // Delete a note with the specified noteId in the request
 exports.delete = (req, res) => {
-    City.findByIdAndRemove(req.query.id)
+    User.findByIdAndRemove(req.query.id)
         .then(note => {
             if (!note) {
                 return res.status(404).send({

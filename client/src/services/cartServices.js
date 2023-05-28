@@ -75,7 +75,7 @@ export function updateUserCart(userId, productId, count) {/**add count to quanti
             }
         }
         else {/**if user does not have a cart in DB */
-            createUserCart({userId, cart: [{ productId: productId, quantity: 1 }] });
+            createUserCart({userId, cart: [{ productId: productId, quantity: count }] });
         }
     }
     ).catch(e=>alert(e))
