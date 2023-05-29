@@ -49,9 +49,9 @@ const Header = (props) => {
           justify="flex-start"
           alignItems="center"
         >
-          <Grid item >
+          <Grid item xs={1}>
             <NavLink to="/" className="link">
-              <img src={"../../logo.pnggi"} />
+              <img src={"../../logo.png"} />
             </NavLink>
 
           </Grid>
